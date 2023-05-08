@@ -1250,9 +1250,9 @@ ol {
 /*---------------------
   About
 -----------------------*/
-.about {
+#about {
   background: #100028;
-  padding-bottom: 150px;
+  padding-bottom: 10px;
 }
 
 .about__pic__item {
@@ -1361,7 +1361,7 @@ ol {
 /*---------------------
   Services
 -----------------------*/
-.services {
+.services{
   background: #100028;
   padding-bottom: 60px;
   padding-top: 110px;
@@ -2042,11 +2042,11 @@ ol {
   border: none;
 }
 
-.contact {
+/* .contact {
   background: #100028;
   padding-top: 0;
   overflow: hidden;
-}
+} */
 
 .contact__map {
   height: 450px;
