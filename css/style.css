@@ -218,7 +218,7 @@ ol {
   background-position: top center;
 }
 
-.skills-card {
+.spad {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -1071,15 +1071,17 @@ ol {
 /*---------------------
   Latest
 -----------------------*/
-.skills-card {
+.latest {
   background: #100028;
   padding-bottom: 80px;
 }
 
-.blog__item.latest__item {
+.latest__item {
   margin-bottom: 0;
 }
-
+.skills-card{
+  margin-bottom: 0;
+}
 /* .blog__item.latest__item:hover {
   border: 1px solid #222222 !important;
   background: url(../img/blog/blog-1.jpg);
@@ -1706,14 +1708,20 @@ ol {
   background: #100028;
 }
 
-.blog__item {
+/* .blog__item {
+  border: 1px solid #222222;
+  padding: 40px 48px 35px 30px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 45px;
+} */
+.skills-card{
   border: 1px solid #222222;
   padding: 40px 48px 35px 30px;
   position: relative;
   z-index: 1;
   margin-bottom: 45px;
 }
-
 /* .blog__item:hover {
   border: 1px solid transparent !important;
   background: url(../img/blog/blog-2.jpg) no-repeat;
@@ -2600,6 +2608,11 @@ ol {
 }
 
 .skills__item {
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+}
+.skills-card {
   display: flex;
   justify-content: space-around;
   align-items: center;
