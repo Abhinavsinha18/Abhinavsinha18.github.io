@@ -17,6 +17,10 @@
         rel="stylesheet">
 
     <!-- Css Styles -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
@@ -164,6 +168,7 @@
                             Whenever possible, I also apply my passion for developing products with <span>Modern
                                 Javascript Library and Frameworks</span> like <span>React.js</span>
                         </p>
+                        
 
                     </div>
                 </div>
@@ -793,20 +798,25 @@
   
 <section class="github">
    
-    <div className="statsPicBox"  id="github-stats-card">
+    <div className="statsPicBox">
         <img
-          className="statsPic"
+        id="github-streak-stats" 
           src="https://github-readme-stats.vercel.app/api?username=Abhinavsinha18&show_icons=true&locale=en&theme=radical"
           alt=""
           id="github-top-langs" 
         />
         <img
-          className="statsPic"
+            id="github-top-langs"
           src="https://github-readme-streak-stats.herokuapp.com/?user=Abhinavsinha18&theme=radical"
           alt=""
           id="github-streak-stats"
         />
       </div>
+      <div class="react-activity-calendar">
+        
+        <img src="https://ghchart.rshah.org/abhinavsinha18" alt="2016rshah's Github chart" id="github-streak-stats" />
+       
+    </div>
 </section>
 
 
@@ -922,7 +932,7 @@
         };
         xhr.send(data);
     }
-
+    
     function gotopageto() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
@@ -938,5 +948,9 @@
 <script src="js/jquery.slicknav.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
+<script
+  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+>
+</script>
 
 </html>
