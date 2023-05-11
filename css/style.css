@@ -1077,7 +1077,7 @@ ol {
 }
 .github{
   background: #100028;
-  
+
 }
 .latest__item {
   margin-bottom: 0;
@@ -1085,12 +1085,6 @@ ol {
 .skills-card{
   margin-bottom: 0;
 }
-/* .blog__item.latest__item:hover {
-  border: 1px solid #222222 !important;
-  background: url(../img/blog/blog-1.jpg);
-  background-size: cover;
-} */
-
 .latest__slider.owl-carousel .owl-item .col-lg-4 {
   max-width: 100%;
 }
