@@ -1075,7 +1075,10 @@ ol {
   background: #100028;
   padding-bottom: 80px;
 }
-
+.github{
+  background: #100028;
+  
+}
 .latest__item {
   margin-bottom: 0;
 }
